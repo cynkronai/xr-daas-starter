@@ -12,7 +12,7 @@
 
 # XR DaaS Starter - Healthcare-Grade Device-as-a-Service
 
-Public, nonâ€‘confidential starter pack to stand up **XR Deviceâ€‘asâ€‘aâ€‘Service (DaaS)** for clinics & corporates.
+Public, non-confidential starter pack to stand up **XR Device-as-a-Service (DaaS)** for clinics & corporates.
 
 ## Contains
 - **MDM** policy scaffolds (ArborXR, Intune)
