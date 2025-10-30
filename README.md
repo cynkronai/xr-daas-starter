@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-MIT-informational)
+![Last Commit](https://img.shields.io/github/last-commit/cynkronai/xr-daas-starter)
+![Issues](https://img.shields.io/github/issues/cynkronai/xr-daas-starter)
+
 # XR DaaS Starter – Healthcare-Grade Device-as-a-Service
 
 Public, non‑confidential starter pack to stand up **XR Device‑as‑a‑Service (DaaS)** for clinics & corporates.
