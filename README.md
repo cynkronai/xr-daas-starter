@@ -10,7 +10,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/cynkronai/xr-daas-starter)
 ![Issues](https://img.shields.io/github/issues/cynkronai/xr-daas-starter)
 
-# XR DaaS Starter â€“ Healthcare-Grade Device-as-a-Service
+# XR DaaS Starter - Healthcare-Grade Device-as-a-Service
 
 Public, nonâ€‘confidential starter pack to stand up **XR Deviceâ€‘asâ€‘aâ€‘Service (DaaS)** for clinics & corporates.
 
