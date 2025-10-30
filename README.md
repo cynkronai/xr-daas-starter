@@ -2,15 +2,11 @@
 - [Architecture Diagram](docs/diagram.md)
 - [Demo Checklist](docs/demo_checklist.md)
 ### How to use this pack
-1) **Import MDM policies** from `/mdm/` (ArborXR/Intune).
-2) **Apply kiosk lockdown** with `/kiosk/` configs; set auto-launch portal.
-3) **Onboard devices** using `/onboarding/` SOPs; enroll, tag, and label assets.
-4) **Run pilot & track** via `/pilot/kpis_30_60_90.md` + `kpi_tracker.csv`.
-5) **Compliance**: adapt `/security/` + `/compliance/` templates (POPIA/GDPR).
-
-![License](https://img.shields.io/badge/license-MIT-informational)
-![Last Commit](https://img.shields.io/github/last-commit/cynkronai/xr-daas-starter)
-![Issues](https://img.shields.io/github/issues/cynkronai/xr-daas-starter)
+- **Import MDM policies** from `/mdm/` (ArborXR/Intune).
+- **Apply kiosk lockdown** with `/kiosk/` configs; set auto-launch portal.
+- **Onboard devices** using `/onboarding/` SOPs; enroll, tag, and label assets.
+- **Run pilot & track** via `/pilot/kpis_30_60_90.md` + `kpi_tracker.csv`.
+- **Compliance:** adapt `/security/` + `/compliance/` templates (POPIA/GDPR).
 
 ![License](https://img.shields.io/badge/license-MIT-informational)
 ![Last Commit](https://img.shields.io/github/last-commit/cynkronai/xr-daas-starter)
