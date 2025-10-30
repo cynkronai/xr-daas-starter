@@ -5,21 +5,21 @@
 ```mermaid
 flowchart LR
   subgraph CLIENT["Client Site (Clinic/Corporate)"]
-    U1[Users<br/>(Clinicians/Facilitators/Employees)]
-    H1[XR Headsets]
+    U1["Users<br/>(Clinicians/Facilitators/Employees)"]
+    H1["XR Headsets"]
   end
 
   subgraph DaaS["XR DaaS Bundle"]
-    MDM[MDM Tenant<br/>(ArborXR / Intune)]
-    PK[Kiosk / Lock Task<br/>(Android, Meta)]
-    CNT[Content Bundles<br/>(XR Portal + Modules)]
-    OPS[Ops & Support<br/>(SOPs, Swap SLA)]
-    SEC[Security & Compliance<br/>(POPIA/GDPR, DPIA, Consent)]
+    MDM["MDM Tenant<br/>(ArborXR / Intune)"]
+    PK["Kiosk / Lock Task<br/>(Android, Meta)"]
+    CNT["Content Bundles<br/>(XR Portal + Modules)"]
+    OPS["Ops & Support<br/>(SOPs, Swap SLA)"]
+    SEC["Security & Compliance<br/>(POPIA/GDPR, DPIA, Consent)"]
   end
 
   subgraph PILOT["Pilot Analytics"]
-    KPIs[KPIs & 30/60/90<br/>(Utilization, NPS, Uptime, Stability)]
-    RPT[Weekly Reports<br/>(MDM Exports)]
+    KPIs["KPIs & 30/60/90<br/>(Utilization, NPS, Uptime, Stability)"]
+    RPT["Weekly Reports<br/>(MDM Exports)"]
   end
 
   U1 -->|Requests| H1
@@ -30,6 +30,6 @@ flowchart LR
   CNT -->|Sessions| U1
 
   MDM -->|Health & Telemetry| RPT
-  SEC -->|Guardrails| DaaS
+  SEC -->|Guardrails| PK
   OPS -->|Swap/Support| H1
   RPT --> KPIs
