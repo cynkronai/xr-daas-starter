@@ -1,0 +1,49 @@
+{
+  "deviceEnrollment": {
+    "namingTemplate": "XR-{location}-{dept}-{serial}",
+    "owner": "CorporateOwnedDedicated",
+    "groupTag": "XR-Healthcare",
+    "category": "XR-Headset"
+  },
+  "configurationProfiles": [
+    {
+      "name": "XR-Base-Hardening",
+      "settings": {
+        "blockUsbDebugging": true,
+        "blockDeveloperMode": true,
+        "wifiAutoConnect": true,
+        "blockUnknownSources": true,
+        "requireDeviceHealthAttestation": true
+      }
+    },
+    {
+      "name": "XR-Kiosk-Mode",
+      "settings": {
+        "kioskPackage": "com.vendor.portal",
+        "allowSystemBar": false,
+        "allowStatusBar": false,
+        "allowMultiWindow": false,
+        "autoLaunchOnBoot": true
+      }
+    }
+  ],
+  "apps": [
+    {
+      "name": "XR-Portal",
+      "packageId": "com.vendor.portal",
+      "delivery": "required"
+    },
+    {
+      "name": "MindfulnessApp",
+      "packageId": "com.example.mind",
+      "delivery": "available"
+    }
+  ],
+  "compliance": {
+    "minOsVersion": "10",
+    "notCompliantActions": [
+      "notify",
+      "retire_if_rooted"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "lockTaskMode": true,
+  "whitelistPackages": [
+    "com.vendor.portal",
+    "com.android.settings",
+    "com.android.bluetooth"
+  ],
+  "disableFeatures": [
+    "status_bar",
+    "recent_apps",
+    "home_button"
+  ],
+  "autoLaunch": "com.vendor.portal/.MainActivity"
+}

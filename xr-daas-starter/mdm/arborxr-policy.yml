@@ -1,0 +1,12 @@
+version: 1
+policy:
+  wifi: { ssid: "ClinicGuest", eap: "WPA2-PSK", hidden: false }
+  os_updates: { window_start: "22:00", window_end: "04:00", defer_days: 7 }
+  bluetooth: disabled
+  usb_debug: disabled
+  adb: disabled
+  install_sources: ["organization_library_only"]
+  telemetry: { enable_device_health: true, enable_app_crash_reports: true }
+  lockdown: { kiosk_mode: true, home_button: disabled, recent_apps: disabled, volume_buttons: limited }
+  content_distribution: { auto_update: true, allow_downgrade: false }
+  notes: "Template only — customize in MDM console."
